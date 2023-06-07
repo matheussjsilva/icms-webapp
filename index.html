@@ -14,14 +14,14 @@
 
 
     <main class="container">
-
-        <h1>Calculadora ICMS</h1>
+        <img src="./assets/img/banner_app.jpg" alt="">
+        <!-- <h1 class="title">Consulta ICMS</h1> -->
 
         <form>
             <label for="estado">
                 <p>Estado:</p>
             </label>
-            <select id="estado" name="estado">
+            <select id="estado" name="estado" class="dropdown">
                 <option value="" selected disabled>Selecione um estado</option>
                 <option value="AC">Acre</option>
                 <option value="AL">Alagoas</option>
@@ -58,13 +58,16 @@
             <label for="valor">
                 <p>Valor da Mercadoria:</p>
             </label>
-            <input type="number" id="valor" name="valor" step="0.01">
+            <input type="number" id="valor" name="valor" step="0.01" placeholder="Ex. 343.50">
 
-            <input type="submit" value="Consultar">
+            <button type="submit" value="Consultar">CALCULAR</button>
         </form>
 
-        <div>
-            <h1>Resultado Centralizado</h1>
+        <div class="res">
+            <p>Porcentagem do ICMS:</p>
+
+            <p>valor total da mercadoria:</p>
+
         </div>
     </main>
 

@@ -3,6 +3,9 @@
     flex-direction: column;
     max-width: 320px;
     margin: 30px auto;
+    border: red solid 5px;
+    padding: 25px;
+
 
 }
 
@@ -16,4 +19,70 @@ select {
     font-size: 20px;
     text-align: center;
     margin: 10px 0;
+
+}
+
+input {
+    padding-left: 7px;
+    border: 1px solid #cdcdcd;
+    border-radius: 4px;
+    color: rgb(119, 119, 119);
+    outline: none;
+}
+
+input:focus {
+    border: 1px solid rgb(140, 174, 229);
+    box-shadow: 1px 1px 1px rgba(140, 174, 229, 0.25);
+}
+
+button {
+    color: #FDFDFD;
+    background-color: #4b83d8;
+    border: 0;
+    margin: 5px 65px;
+    padding: 15px;
+    border-radius: 3px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #432000;
+}
+
+.res {
+    height: 120px;
+    width: 259px;
+    border: blue solid 5px;
+}
+
+.title,
+p {
+    text-indent: 4%;
+
+}
+
+img {
+    width: 259px;
+
+}
+
+
+
+.dropdown {
+    padding-left: 7px;
+    border: 1px solid #cdcdcd;
+    border-radius: 4px;
+    color: rgb(119, 119, 119);
+    outline: none;
+
+    width: 250px;
+}
+
+.dropdown:focus:focus {
+    border: 1px solid rgb(140, 174, 229);
+    box-shadow: 1px 1px 1px rgba(140, 174, 229, 0.25);
 }
