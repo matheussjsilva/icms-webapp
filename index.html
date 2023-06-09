@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ICMS | Consulta</title>
+    <!-- Styles CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Reset CSS -->
     <link rel="stylesheet" href="./assets/css/reset.css">
 </head>
 
@@ -15,7 +17,6 @@
 
     <main class="container">
         <img src="./assets/img/banner_app.jpg" alt="">
-        <!-- <h1 class="title">Consulta ICMS</h1> -->
 
         <form>
             <label for="estado">
@@ -60,7 +61,7 @@
             </label>
             <input type="number" id="valor" name="valor" step="0.01" placeholder="Ex. 343.50">
 
-            <button type="submit" value="Consultar">CALCULAR</button>
+            <button id="btn-calc" type="submit" value="Consultar">CALCULAR</button>
         </form>
 
         <div class="res">
@@ -70,31 +71,7 @@
 
         </div>
     </main>
-
-    <!-- 
-
-    <article class="about">
-        <h1>O que é ICMS?</h1>
-        <p>O ICMS (Imposto sobre Circulação de Mercadorias e Serviços) é um imposto estadual que incide sobre a venda e
-            o transporte de produtos comercializados no país ou mesmo importados. Ele é cobrado de forma indireta, ou
-            seja, seu valor é adicionado ao preço do produto ou serviço. Seu fato gerador acontece na troca de
-            titularidade de um bem ou serviço para o comprador final.</p>
-        <p>A regulamentação deste imposto é de responsabilidade de cada Estado e do Distrito Federal, que estipulam a
-            porcentagem cobrada em suas regiões de atuação. Assim, cada localidade possui sua própria tarifa, para cada
-            uma das unidades federativas(UF).</p>
-        <h1>Como Calcular o ICMS?</h1>
-        <p>Primeiro, é necessário saber qual alíquota incide no estado em que sua empresa atua. Em uma situação normal,
-            no qual a venda é efetuada dentro da mesma UF, o cálculo é simples:</p>
-        <p><Strong>Valor do Produto X Alíquota do Estado = Valor do ICMS</Strong></p>
-        <p>Ex: Um produto custa R$ 1.000,00 reais e sobre ele incide uma alíquota de 18% (valor aplicado em vários
-            estados como São Paulo, Bahia e Paraná), o calculo seria o seguinte:</p>
-        <p><strong>R$ 1.000,00 X 18% = R$ 180,00</strong></p>
-        <p>Ou seja, neste caso o valor do ICMS deste produto seria de R$ 180,00 reais, totalizando R$ 1.180,00.</p>
-        <h1>Tabela do ICMS</h1>
-        <img src="" alt="Tabela do ICMS">
-    </article> -->
-
-    <script src="./src/scripts/app.js"></script>
+    <script src="./assets/scripts/app.js"></script>
 </body>
 
 </html>
