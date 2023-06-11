@@ -16,7 +16,7 @@
   "theme_color": "#ffffff",
   "background_color": "#d9d4d4",
   "display": "standalone",
-  "start_url": "https://icms-consulta.netlify.app",
+  "start_url": "/?utm=pwa",
   "lang": "pt",
   "categories": [
     "finance",
