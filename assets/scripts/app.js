@@ -146,7 +146,7 @@ window.addEventListener('DOMContentLoaded', function () {
         const resValorMercadoria = document.querySelector('.res p:nth-child(2)');
 
         resPorcentagem.textContent = `Porcentagem do ICMS: ${porcentagemICMS}%`;
-        resValorMercadoria.textContent = `Valor total da mercadoria: R$ ${valorICMS.toFixed(2)}`;
+        resValorMercadoria.textContent = `Valor total: R$ ${valorICMS.toFixed(2)}`;
 
 
 
