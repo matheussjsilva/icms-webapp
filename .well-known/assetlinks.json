@@ -1,0 +1,6 @@
+[{
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target" : { "namespace": "android_app", "package_name": "app.netlify.icms_consulta.twa",
+                     "sha256_cert_fingerprints": ["29:33:FC:A8:53:78:DE:73:76:81:FE:93:C9:C8:EE:8B:54:E0:EC:32:CB:D4:9C:3D:78:81:D2:C5:72:A8:29:6C"] }
+      }
+]
