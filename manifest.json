@@ -16,11 +16,10 @@
   "theme_color": "#ffffff",
   "background_color": "#d9d4d4",
   "display": "standalone",
-  "orientation": "any",
+  "start_url": "https://icms-consulta.netlify.app/index.html",
+  "lang": "pt",
   "categories": [
     "finance",
-    "utilities"
-  ],
-  "start_url": "https://icms-consulta.netlify.app/index.html",
-  "lang": "pt"
+    "lifestyle"
+  ]
 }
